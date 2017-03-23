@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Portfolio Web Page</title>
+</head>
+  <body>
+    <div class="wrapper">
+
+      <header>
+        <div class="row">
+          <div class="Logo">
+            <img src="https://sumozasnullpointer.files.wordpress.com/2015/04/udacity-logo.jpg" alt="Logo">
+          </div>
+          <div class="Site_ID">
+            <h1>Claus Bülow</h1>
+            <h3>Avid Learner</h4>
+          </div>
+        </div>
+
+      <hr>
+
+        <div class="nav">
+          <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="blog"><a href="#">Blog</a></li>
+            <li class="contact"><a href="#">Services</a></li>
+            <li class="about"><a href="#">About</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="row">
+          <picture id="Banner">
+            <source
+              media="(min-width: 651px)"
+              srcset="images/main-pic-1600_large_2x.jpg"/>
+            <source
+              media="(max-width: 650px)"
+              srcset="images/main-pic-800_medium_1x.jpg"/>
+            <img src="images/main-pic-1600_large_2x.jpg"
+              alt="Main-Pic">
+          </picture>
+        </div>
+
+        <div class="row My_Work">
+          <h2>Featured Work</h2>
+        </div>
+
+        <div class="row Projects">
+          <picture class="Portfolio_Item">
+            <a href="#">
+              <source
+                media="(min-width: 651px)"
+                srcset="images/light-bulb-1600_large_2x.jpg">
+              <source
+                media="(max-width: 650px)"
+                srcset="images/light-bulb-800_medium_1x.jpg">
+              <img src="images/light-bulb-1600_large_2x.jpg"
+                alt="Project 1">
+            </a>
+                <h4 class="Links_Projects">Project 1</h4>
+                <a href="#">Link</a>
+          </picture>
+
+          <picture class="Portfolio_Item">
+            <a href="#">
+              <source
+                media="(min-width: 651px)"
+                srcset="images/laptop-1600_large_2x.jpg">
+              <source
+                media="(max-width: 650px)"
+                srcset="images/laptop-800_medium_1x.jpg">
+              <img src="images/laptop-1600_large_2x.jpg"
+                alt="Project 2">
+            </a>
+                <h4 class="Links_Projects">Project 2</h4>
+                <a href="#">Link</a>
+          </picture>
+
+          <picture class="Portfolio_Item">
+            <a href="#">
+              <source
+              media="(min-width: 651px)"
+              srcset="images/light-bulb-1600_large_2x.jpg">
+            <source
+              media="(max-width: 650px)"
+              srcset="images/light-bulb-800_medium_1x.jpg">
+            <img src="images/light-bulb-1600_large_2x.jpg"
+              alt="Project 3">
+            </a>
+              <h4 class="Links_Projects">Project 3</h4>
+              <a href="#">Link</a>
+          </picture>
+        </div>
+
+        <footer>
+          <div class="row">
+            <p id="credit">Made With Passion by <a href="https://twitter.com/Claus_Bulow">@Claus</a>. Don't hesitate to drop me a line!</p>
+          </div>
+        </footer>
+
+      </div>
+    </main>
+  </body>
+</html>
